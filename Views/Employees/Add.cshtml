@@ -1,0 +1,37 @@
+﻿@model ASPNETMVCCRUD.Models.AddEmployeeViewModel
+@{
+}
+
+<form method="post" action="Add" class="mt-5">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="Name" class="form-control" asp-for="Name">
+       
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Email">
+
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Salary</label>
+        <input type="int" class="form-control" asp-for="Salary">
+
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">DateOfbirth</label>
+        <input type="date" class="form-control" asp-for="DateOfbirth">
+       
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Deparment</label>
+        <input type="name" class="form-control" asp-for="Deparment">
+
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
